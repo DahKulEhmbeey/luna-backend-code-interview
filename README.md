@@ -21,3 +21,6 @@ Please fork this repo and send forked repo url once it's done.
 - Provide PostgreSQL database credentials and other config in a `.env` file. `sample.env` file is a good reference
 - To start the API server locally, run `yarn start:dev` in the project root directory.
 - To run the tests: run `yarn test`
+
+## Documentation
+Postman collection [here](https://www.getpostman.com/collections/f184c623bdc7e8754e26)
