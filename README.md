@@ -17,5 +17,7 @@ Please fork this repo and send forked repo url once it's done.
 - Ensure you have `Node >=v14` installed
 - Ensure you have `yarn` or `npm` installed.
 - Run `yarn install`
+- Run `yarn migrate` to run the migrations
 - Provide PostgreSQL database credentials and other config in a `.env` file. `sample.env` file is a good reference
-- To start the API server locally, run `yarn start:dev` in the project root directory:
+- To start the API server locally, run `yarn start:dev` in the project root directory.
+- To run the tests: run `yarn test`
