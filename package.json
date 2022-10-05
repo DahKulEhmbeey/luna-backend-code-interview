@@ -1,0 +1,49 @@
+{
+  "name": "luna-backend-code-interview",
+  "version": "1.0.0",
+  "description": "A NFT metadata API server project",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production tsc && node build/index.js",
+    "start:dev": "tsc && node build/index.js",
+    "migrate": "knex migrate:latest",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DahKulEhmbeey/luna-backend-code-interview.git"
+  },
+  "keywords": [
+    "NFT",
+    "ERC721",
+    "Typescript"
+  ],
+  "author": "Mubarak Bello <bellomuba.rak0@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DahKulEhmbeey/luna-backend-code-interview/issues"
+  },
+  "homepage": "https://github.com/DahKulEhmbeey/luna-backend-code-interview#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.1.1",
+    "@types/morgan": "^1.9.3",
+    "@types/uuid": "^8.3.4",
+    "jest": "^29.1.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.0",
+    "knex": "^2.3.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0"
+  }
+}
